@@ -12,8 +12,7 @@ import {
 import { BsLightningCharge } from "react-icons/bs";
 import { TypographyH1 } from "./price-heading";
 import { GiCheckMark } from "react-icons/gi";
-import { IoLayers } from "react-icons/io5";
-
+import { IoLayersOutline } from "react-icons/io5";
 
 type CardProps = React.ComponentProps<typeof Card>
 
@@ -89,7 +88,7 @@ export function Cards({ className, ...props }: CardProps) {
       <CardHeader className="flex flex-col items-center justify-center space-y-0 pb-5">
         <CardTitle className="text-2xl font-bold pb-3 flex flex-row items-center justify-center">
             <div className="flex items-center justify-center border-4 rounded-full w-10 h-10 border-gray-100  bg-blue-100">
-                <IoLayers className="text-blue-500 w-5 h-5"/>
+                <IoLayersOutline className="text-blue-500 w-5 h-5"/>
             </div>
         </CardTitle>
         <CardDescription className={`${lusitana.className} text-blue-700`}>Enterprise Plan</CardDescription>
